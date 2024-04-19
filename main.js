@@ -4,11 +4,11 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual os melhor time?");
+    var respostaTime = prompt("Qual o melhor time da NBA?");
 
     
-    if (respostaTime.toLowerCase() === "Athlético PR") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaTime.toLowerCase() === "Boston Celtics") {
+      alert("Isso aí! O Celtics é o melhor time!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
